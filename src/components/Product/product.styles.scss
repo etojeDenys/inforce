@@ -1,0 +1,26 @@
+
+.product{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__content{
+    display: flex;
+    flex-direction: column;
+  }
+  &__title{
+    font-size: 25px;
+  }
+  &__img{
+    width: 500px;
+  }
+  &__edit{
+    margin-top: 50px;
+  }
+}
+.comments{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
